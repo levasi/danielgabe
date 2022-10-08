@@ -5,7 +5,8 @@
       headline="Born in<br>Bucharest, Romania"
       rightHeadline="Available for freelance work"
     />
-    <section class="section work" data-scroll-section>
+    <WorkItems :showTitle="true" :showMore="true" :limit="1" />
+    <!-- <section class="section work" data-scroll-section>
       <div class="container">
         <h5>Some of my projects</h5>
         <div class="work-items">
@@ -34,7 +35,7 @@
         </div>
         <a href="#" class="work-all">View all work +</a>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 

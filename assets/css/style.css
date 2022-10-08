@@ -684,7 +684,17 @@ p a:hover {
 .work-items {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    margin: 0 -20px;
+}
+
+.work-item {
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.work-item.half {
+    width: 50%;
 }
 
 .work-group {
